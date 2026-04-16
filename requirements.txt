@@ -1,0 +1,11 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-multipart==0.0.9
+
+openai-whisper==20231117
+
+numpy>=1.23.0
+tqdm>=4.65.0
+
+# Audio processing dependency (Whisper requires ffmpeg installed on system)
+# Note! ffmpeg is NOT a pip dependency and should be installed seperatly (instructions in README.md)

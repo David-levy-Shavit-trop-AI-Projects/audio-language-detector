@@ -1,0 +1,96 @@
+# =====================
+# Python
+# =====================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# =====================
+# Virtual environment (Windows / Linux / Mac)
+# =====================
+venv/
+venv.bak/
+env/
+env.bak/
+
+# =====================
+# Distribution / packaging
+# =====================
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# =====================
+# Logs
+# =====================
+*.log
+
+# =====================
+# FastAPI / Uvicorn
+# =====================
+*.sqlite3
+
+# =====================
+# IDEs
+# =====================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =====================
+# OS files
+# =====================
+.DS_Store
+Thumbs.db
+
+# =====================
+# Environment variables
+# =====================
+.env
+.env.local
+.env.*.local
+
+# =====================
+# Testing / coverage
+# =====================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =====================
+# Whisper / ML artifacts (optional but recommended)
+# =====================
+.cache/
+huggingface/
+models/
+*.bin
+
+# =====================
+# Temp audio files
+# =====================
+*.mp3
+*.wav
+*.m4a
+*.flac
+tmp/
+temp/
+
+# =====================
+# Docker
+# =====================
+docker-compose.override.yml
+
+# =====================
+# Logs from uvicorn
+# =====================
+uvicorn.log
