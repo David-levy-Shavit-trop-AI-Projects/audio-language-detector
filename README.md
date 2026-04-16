@@ -18,7 +18,7 @@ A lightweight **FastAPI microservice** for detecting the language of audio files
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/audio-language-detector.git
+git clone https://github.com/David-levy-Shavit-trop-AI-Projects/audio-language-detector.git
 cd audio-language-detector
 ```
 
