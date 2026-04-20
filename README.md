@@ -87,7 +87,7 @@ ffmpeg -version
 ## Running the Service
 
 ```bash
-uvicorn app:app --host 0.0.0.0 --port 8000
+uvicorn src.app.main:app --host 0.0.0.0 --port 8000
 ```
 
 ---
